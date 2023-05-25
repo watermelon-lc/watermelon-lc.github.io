@@ -38,10 +38,17 @@ export default defineConfig({
               { text: '12号', link: '/simmental/third/12' },
               { text: '15号', link: '/simmental/third/15' },
               { text: '18号', link: '/simmental/third/18' },
-              { text: '22号', link: '/simmental/third/22' }
+              { text: '22号', link: '/simmental/third/22' },
             ]
           },
-          { text: '四代', link: '/simmental/fourth/' },
+          {
+            text: '四代',
+            link: '/simmental/fourth/',
+            items: [
+              { text: '6号', link: '/simmental/fourth/6' },
+              { text: '23号', link: '/simmental/fourth/23' },
+            ]
+          },
         ]
       }
     ],
