@@ -6,6 +6,7 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
-    "deploy:mac": "zsh bin/deploy.sh"
+    "deploy:mac": "zsh bin/deploy.sh",
+    "deploy:win": "cmd bin/deploy.bat"
   }
 }
