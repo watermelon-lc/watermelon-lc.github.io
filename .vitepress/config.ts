@@ -14,16 +14,18 @@ export default defineConfig({
         { text: '三代', link: '/simmental/third/' },
         { text: '四代', link: '/simmental/fourth/' },
       ] },
-      { text: '知识点', link: '/knowledge' }
+      { text: '养殖技术', link: '/technique/' }
     ],
 
     sidebar: [
       {
         text: '西门塔尔',
+        collapsed: true,
         items: [
           {
             text: '二代',
             link: '/simmental/second/',
+            collapsed: false,
             items: [
               { text: '花脸', link: '/simmental/second/face' }
             ]
@@ -31,6 +33,7 @@ export default defineConfig({
           {
             text: '三代',
             link: '/simmental/third/',
+            collapsed: false,
             items: [
               { text: '1号', link: '/simmental/third/1' },
               { text: '7号', link: '/simmental/third/7' },
@@ -54,6 +57,7 @@ export default defineConfig({
           {
             text: '四代',
             link: '/simmental/fourth/',
+            collapsed: false,
             items: [
               { text: '狸花', link: '/simmental/fourth/flower' },
               { text: '6号', link: '/simmental/fourth/6' },
@@ -62,7 +66,20 @@ export default defineConfig({
             ]
           },
         ]
-      }
+      },
+      // {
+      //   text: '养殖技术',
+      //   collapsed: true,
+      //   items: [
+      //     {
+      //       text: '常见病的防治',
+      //       link: '/technique/common-ill',
+      //       items: [
+      //         {  }
+      //       ]
+      //     }
+      //   ]
+      // }
     ],
 
     // socialLinks: [
