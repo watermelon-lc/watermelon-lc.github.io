@@ -7,6 +7,7 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
     "deploy:mac": "zsh bin/deploy.sh",
-    "deploy:win": "cmd bin/deploy.bat"
+    "deploy:win": "cmd bin/deploy.bat",
+    "create:sim": "node scripts/create.js simmental"
   }
 }

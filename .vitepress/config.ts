@@ -37,11 +37,11 @@ export default defineConfig({
             items: [
               { text: '1号', link: '/simmental/third/1' },
               { text: '7号', link: '/simmental/third/7' },
-              { text: '10号', link: '/simmental/third/10' },
+              { text: '10号-黑嘴头', link: '/simmental/third/10' },
               { text: '11号', link: '/simmental/third/11' },
               { text: '12号', link: '/simmental/third/12' },
               { text: '14号', link: '/simmental/third/14' },
-              { text: '15号', link: '/simmental/third/15' },
+              { text: '15号-大秃头', link: '/simmental/third/15' },
               { text: '16号', link: '/simmental/third/16' },
               { text: '17号', link: '/simmental/third/17' },
               { text: '18号', link: '/simmental/third/18' },
