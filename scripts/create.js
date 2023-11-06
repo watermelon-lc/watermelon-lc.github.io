@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-function createFile({ target, version }, name, template = 'template.md') {
+function createFile({ target, version }, name, template = 'template.txt') {
   const filePath = path.resolve(__dirname, '..', `${target}/${name}.md`);
   try {
     const templateContent = fs.readFileSync(path.resolve(__dirname, '..', template), 'utf-8').replaceAll('{name}', name).replaceAll('{picture}', `${version}/${name}.jpg`);
