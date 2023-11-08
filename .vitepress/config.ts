@@ -62,6 +62,7 @@ export default defineConfig({
               { text: '35号', link: '/simmental/third/35' },
               { text: '36号-23号孩子', link: '/simmental/third/36' },
               { text: '37号', link: '/simmental/third/37' },
+              { text: '38号-小白', link: '/simmental/third/38' },
             ]
           },
           {
