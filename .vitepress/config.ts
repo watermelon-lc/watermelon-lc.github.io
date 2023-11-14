@@ -51,7 +51,7 @@ export default defineConfig({
               { text: '24号-1号孩子', link: '/simmental/third/24' },
               { text: '25号-花脸孩子', link: '/simmental/third/25' },
               { text: '26号-12号孩子', link: '/simmental/third/26' },
-              { text: '27号-狸花孩子', link: '/simmental/third/27' },
+              { text: '27号（公）-狸花孩子', link: '/simmental/third/27' },
               { text: '28号', link: '/simmental/third/28' },
               { text: '29号-背上2片白', link: '/simmental/third/29' },
               { text: '30号', link: '/simmental/third/30' },
@@ -74,6 +74,7 @@ export default defineConfig({
               { text: '6号', link: '/simmental/fourth/6' },
               { text: '19号', link: '/simmental/fourth/19' },
               { text: '23号', link: '/simmental/fourth/23' },
+              { text: '39号（公）-7号孩子', link: '/simmental/fourth/39' },
             ]
           },
         ]
